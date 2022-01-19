@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); /* importada do google fonts */ 
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+             /* 
+             Medidas Absolutas 
+             cm, mm, in, px, pt, pc
+
+             Medidas Relativas 
+             em, ex, rem, vw, vh, % 
+             
+             usar o PX e o EM - preferencia para esses dois 
+
+             16px geralmente = 1em 
+             */ 
+             font-size: 1em;
+             
+             /* lighter normal bold bolder */ 
+        }
+        
+       /* h1, h2 {
+            font-family: 'Times New Roman', Times, serif; - SAFE COMBINATIONS - PRESENTE NO RESUMO FAMILIAS DE FONTE COM CSS 
+        } */ 
+
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', 'sans-serif'; /* shorthand */ 
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus necessitatibus doloribus officia excepturi velit, dolor maiores fuga eaque totam nisi harum autem nulla ut inventore laboriosam nemo dolore. Tempore, similique?</p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nihil doloribus officiis architecto fuga repudiandae a odit nesciunt mollitia iste culpa recusandae ea, veniam tenetur itaque eos fugiat maiores sint.
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui quibusdam numquam ipsa at aut, debitis, quis odio id fugiat quaerat sed distinctio inventore porro et illum enim velit doloremque!</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, eius amet, expedita accusantium nihil, repellendus quibusdam saepe placeat nesciunt quos et blanditiis facere quidem vel error quam reiciendis deleniti? Corporis.</p>
+</body>
+</html>

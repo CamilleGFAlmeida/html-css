@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+   <!-- PARA SITES EXTERNOS - QUE NAO FAZEM PARTE DO MEU SITE -->
+        <p>Você pode acessar o meu <a href="http://gustavoguanabara.github.io/" target="_blank" rel="external"> repositório público no GitHub</a></p> <!-- tags target e rel abrem o link em uma nova aba e nao fecham o seu site, ele continua lá -->
+        
+            <p>Você também pode acessar o meu <a href="https://www.youtube.com/cursoemvideo/">canal gratuito no Youtube<p></a> <!-- o site vai sumir e aparecer apenas o youtube devido a ausencia das tags target e rel -->
+        <br>
+<!-- PARA SITE INTERNO  - QUE FAZ PARTE DO MEU SITE (ESTÁ DENTRO DELE) -->
+        <h2>Usando links internos</h2>
+        <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p> <!-- direto para a segunda pagina/porém ela deve estar presente no meu site (deve ser exclusivamente so meu site)-->
+
+<p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+<h1>Links para Download</h1>
+<ul>
+    <li><a href="livro/A Imperativa Thanos Ignicao - Dan Abnett.pdf" download="A Imperativa Thanos Ignicao - Dan Abnett.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    <li><a href="livro/A Imperativa Thanos Ignicao - Dan Abnett.zip" download="A Imperativa Thanos Ignicao - Dan Abnett.zip" type="application/zip">Livro compactado em ZIP</a></li>
+</ul>
+</body>
+</html>
