@@ -12,8 +12,8 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: contain; /* a tendência é ser "cover" invés de contain */ 
+    background-repeat: no-repeat; /* sem repetir a imagem */ 
 }
 
 h1 {
